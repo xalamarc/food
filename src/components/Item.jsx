@@ -3,7 +3,7 @@ import React from 'react'
 const Item = ({ title, subtitle, description, src }) => {
   return (
     <>
-      <div className='h-[350px] w-[300px] border-[1px] border-mate m-[5px]'>
+      <div className='h-[350px] w-[300px] border-[1px] border-mate m-[20px] bg-papayaWhip'>
         <a href={`/${title}`}>
           <div className='w-full h-4/6 flex flex-col p-[10px] border-b-[1px] border-mate'>
             <div className='w-full border-b-[1px] border-mate'>
