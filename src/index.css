@@ -17,16 +17,3 @@
   margin: 0;
   background-color: #fffcf2;
 }
-
-@keyframes drop {
-  0% {
-    transform: translateX(-100px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
-.css {
-  animation: drop 2s ease;
-}
