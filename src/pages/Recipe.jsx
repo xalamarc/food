@@ -16,13 +16,13 @@ const Recipe = () => {
             src='https://bellyfull.net/wp-content/uploads/2021/04/Huevos-Rancheros-blog.jpg'
           />
           <Item
-            title='dessert'
+            title='lunch'
             subtitle='spaghetti a la boloñesa'
             description='Esta receta contiene carne, pasta y verduras. La boloñesa es una salsa típica italiana, elaborada a base de tomate y carne picada'
             src='https://www.gastrolabweb.com/u/fotografias/m/2021/4/28/f850x638-12413_89902_6649.jpg'
           />
           <Item
-            title='lunch'
+            title='dessert'
             subtitle='griego con frutas'
             description='Mezcla de diversas frutas (frutos rojos, mango, platano, frutilla, arandanos, etc) junto con yogur griego y avena o frutos secos.'
             src='https://mx.hola.com/imagenes/cocina/recetas/20210318186319/bowl-yogur-natural-fruta-muesli/0-932-147/bowl-yogur-fruta-m.jpg'

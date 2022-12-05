@@ -21,6 +21,10 @@ module.exports = {
       bugaki: ['bugaki'],
       tt: ['Lato, sans-serif'],
     },
+    backgroundImage: {
+      spaguetti:
+        "url('https://i.pinimg.com/564x/90/ef/f0/90eff088cdc63d983eb1982cbdaa79b5.jpg')",
+    },
   },
   plugins: [],
 }
