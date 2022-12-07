@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
+import Error from '../components/Error'
 
 const Lunch = () => {
   const [width, setWidth] = useState(window.innerWidth)
@@ -110,7 +111,7 @@ const Lunch = () => {
   return (
     <>
       <Header />
-      <div>Not aveilable</div>
+      <Error />
     </>
   )
 }

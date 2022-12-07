@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
 import huevos from '../assets/huevos.jpg'
+import Error from '../components/Error'
 
 const Breakfast = () => {
   const [width, setWidth] = useState(window.innerWidth)
@@ -106,7 +107,7 @@ const Breakfast = () => {
   return (
     <>
       <Header />
-      <div>Not aveilable</div>
+      <Error />
     </>
   )
 }
